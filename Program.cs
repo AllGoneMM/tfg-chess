@@ -8,6 +8,11 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        StartMenu();
+    }
+
+    public static void StartMenu()
+    {
         string option = "0";
         bool exit = false;
         do
@@ -17,8 +22,10 @@ public class Program
             Console.WriteLine("1 - Jugar contra IA");
             Console.WriteLine("2 - Jugar en local 1 vs 1");
             Console.WriteLine("3 - IA vs IA");
-            Console.WriteLine("4 - Salir");
-            Console.Write("\nIntroduce una opción (1-4): ");
+            Console.WriteLine("4 - Iniciar servidor de ajedrez (MAS VERDE QUE LAS JUDÍAS)");
+            Console.WriteLine("5 - Conectar a servidor de ajedrez (MAS VERDE QUE LAS JUDÍAS)");
+            Console.WriteLine("6 - Salir");
+            Console.Write("\nIntroduce una opción (1-6): ");
             option = Console.ReadLine();
             switch (option)
             {
@@ -33,6 +40,12 @@ public class Program
                     Console.ReadKey();
                     break;
                 case "4":
+                    ChessServer.Start();
+                    break;
+                case "5":
+                    ChessClient.Start();
+                    break;
+                case "6":
                     exit = true;
                     break;
             }
