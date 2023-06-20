@@ -19,12 +19,12 @@ public class Program
         {
             Console.Clear();
             Console.WriteLine("MENU\n");
-            Console.WriteLine("1 - Jugar contra IA");
-            Console.WriteLine("2 - Jugar en local 1 vs 1");
-            Console.WriteLine("3 - IA vs IA");
-            Console.WriteLine("4 - Iniciar servidor de ajedrez (MAS VERDE QUE LAS JUDÍAS)");
-            Console.WriteLine("5 - Conectar a servidor de ajedrez (MAS VERDE QUE LAS JUDÍAS)");
-            Console.WriteLine("6 - Salir");
+            Console.WriteLine("1 - Jugar contra IA\n");
+            Console.WriteLine("2 - Jugar en local 1 vs 1\n");
+            Console.WriteLine("3 - IA vs IA\n");
+            Console.WriteLine("4 - Iniciar servidor de ajedrez (Beta)\n");
+            Console.WriteLine("5 - Conectar a servidor de ajedrez (Beta)\n");
+            Console.WriteLine("6 - Salir\n");
             Console.Write("\nIntroduce una opción (1-6): ");
             option = Console.ReadLine();
             switch (option)

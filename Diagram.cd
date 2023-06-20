@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="EXCEPTIONS&#xD;&#xA;">
+    <Position X="3.494" Y="0.5" Height="0.397" Width="2.524" />
+  </Comment>
+  <Comment CommentText="CORE">
+    <Position X="0.539" Y="0.5" Height="0.385" Width="2.682" />
+  </Comment>
+  <Comment CommentText="UTILS">
+    <Position X="6.337" Y="0.527" Height="0.385" Width="4.678" />
+  </Comment>
+  <Comment CommentText="UI">
+    <Position X="11.261" Y="0.554" Height="0.385" Width="5.948" />
+  </Comment>
+  <Comment CommentText="MODELS">
+    <Position X="11.224" Y="3.31" Height="0.385" Width="5.948" />
+  </Comment>
+  <Class Name="Chess.Core.ChessAIGame" Collapsed="true">
+    <Position X="0.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ChessAIGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Core.ChessAIVSAIGame" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ChessAIVSAIGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Core.ChessClient" Collapsed="true">
+    <Position X="0.5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ChessClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Core.ChessGame">
+    <Position X="0.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAEAABAAAAAAEACSAAAAAgAAAgAAAAgACEEACA=</HashCode>
+      <FileName>Core\ChessGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Core.ChessLocalGame" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ChessLocalGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Core.ChessServer" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ChessServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.FenFormatException" Collapsed="true">
+    <Position X="3.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\FenFormatException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.IllegalMoveException" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\IllegalMoveException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.IllegalStatusException" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\IllegalStatusException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.IllegalTileException" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\IllegalTileException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.InvalidTileArrayException" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidTileArrayException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.NoLegalMovesException" Collapsed="true">
+    <Position X="3.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NoLegalMovesException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Exceptions.PromotionNeededException" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PromotionNeededException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Models.Enumerations.Direction" Collapsed="true">
+    <Position X="21.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgIAAAAAAAAAAAAAAAAAAAAAAAAACACAIAABAAI=</HashCode>
+      <FileName>Models\Enumerations\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Models.Board">
+    <Position X="11.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CQBAAIQAAAAAAAEAIAAAIAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Models\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BoardTiles" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Chess.Models.Move">
+    <Position X="11.25" Y="7.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAECAAAAAAA=</HashCode>
+      <FileName>Models\Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Models.Piece">
+    <Position X="17.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAIAAQAAAAAAAAAAAAEQAAAAAAAAA=</HashCode>
+      <FileName>Models\Piece.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Team" />
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Chess.Models.Tile">
+    <Position X="14.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAgAAAAAAAAAAAgCAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Tile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Piece" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Chess.UI.ChessUI">
+    <Position X="11.25" Y="1" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAACAAAAACAIAAAAAAABAACA=</HashCode>
+      <FileName>UI\ChessUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Utils.FenConverter">
+    <Position X="6.25" Y="1" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIACAAAEAAAAABEgAAAEAAAAAAAIAACAABAAA=</HashCode>
+      <FileName>Utils\FenConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Utils.MoveValidator">
+    <Position X="6.25" Y="4.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>QCAAIAAAAABCANIAACAABAAAEACAAAxIQAAAAgQgBAA=</HashCode>
+      <FileName>Utils\MoveValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Utils.TileConverter">
+    <Position X="6.25" Y="10.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\TileConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Chess.Models.Enumerations.SpecialMove" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEQAAAAAABAAAAAACAAAgAAAAAAA=</HashCode>
+      <FileName>Models\Enumerations\SpecialMove.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Chess.Models.Enumerations.Status" Collapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAgAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enumerations\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Chess.Models.Enumerations.Team" Collapsed="true">
+    <Position X="21.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAQAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enumerations\Team.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Chess.Models.Enumerations.Type" Collapsed="true">
+    <Position X="21.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgAAAABAAQAAAAAAAAAAAAAAAAAAAgBAAAg=</HashCode>
+      <FileName>Models\Enumerations\Type.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -8,11 +8,11 @@ namespace Chess.Utils
     {
         private List<Move> _legalMoves;
 
-        private Board _board;
-
         private Tile _tile;
 
         private Piece _piece;
+
+        private Board _board;
 
         private int _originTile;
 
